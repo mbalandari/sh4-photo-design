@@ -26,8 +26,11 @@ a {
 }
 
 header {
-    overflow: hidden;
+    /* overflow: hidden; */
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     top: 0;
     left: 0;
@@ -35,13 +38,8 @@ header {
 }
 
 header h1 {
-    float: left;
+    /* float: left; */
     width: 4rem;
-}
-
-header nav {
-    float: right;
-    margin-top: 1.25rem;
 }
 
 header nav a {
