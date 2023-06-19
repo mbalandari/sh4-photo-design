@@ -6,11 +6,11 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-/* 
+
 img {
     width: 100%;
     max-width: 100%;
-} */
+}
 
 body {
     font-family: 'Work Sans', sans-serif;
@@ -51,4 +51,26 @@ header nav a {
 .active {
     border-bottom: 2px solid #fff;
     padding-bottom: 3px;
+}
+
+.photos {
+    text-align: center;
+    max-width: 67.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo {
+    display: inline-block;
+    width: 18.75rem;
+    margin: 0.6rem;
+    /* vertical-align: top; */
+}
+
+.small {
+    width: 13.75rem;
+}
+
+.large {
+    width: 25rem;
 }
