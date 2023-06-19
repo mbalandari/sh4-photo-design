@@ -7,10 +7,10 @@ html {
     box-sizing: inherit;
 }
 
-img {
+/* img {
     width: 100%;
     max-width: 100%;
-}
+} */
 
 body {
     font-family: 'Work Sans', sans-serif;
@@ -60,6 +60,11 @@ header nav a {
     margin-right: auto;
 }
 
+.photos img {
+    width: 100%;
+    max-width: 100%;
+}
+
 .photo {
     display: inline-block;
     width: 18.75rem;
@@ -73,4 +78,24 @@ header nav a {
 
 .large {
     width: 25rem;
+}
+
+footer {
+    overflow: hidden;
+    padding: 1.25rem;
+}
+
+footer p {
+    float: left;
+    font-weight: 300;
+}
+
+footer .contact {
+    float: right;
+}
+
+footer .contact a {
+    width: 1rem;
+    margin-left: 0.6rem;
+    display: inline-block;
 }
