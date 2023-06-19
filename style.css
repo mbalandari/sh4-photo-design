@@ -14,4 +14,31 @@ img {
 
 body {
     font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #000;
+    padding-top: 6.5rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1.25rem;
+}
+
+header h1 {
+    float: left;
+    width: 4rem;
+}
+
+header nav {
+    float: right;
 }
