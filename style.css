@@ -35,6 +35,7 @@ header {
     top: 0;
     left: 0;
     padding: 1.25rem;
+    z-index: 10;
 }
 
 header h1 {
@@ -60,6 +61,8 @@ header nav a {
     align-items: end;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
 }
 
 .photos img {
@@ -107,17 +110,15 @@ header nav a {
 }
 
 footer {
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1.25rem;
 }
 
 footer p {
-    float: left;
+    font-size: 0.8rem;
     font-weight: 300;
-}
-
-footer .contact {
-    float: right;
 }
 
 footer .contact a {
