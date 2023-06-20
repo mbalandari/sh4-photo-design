@@ -150,3 +150,7 @@ footer .contact a {
     transform: translate(-50%, -50%);
     max-width: 31.25rem;
 }
+
+.list a::after {
+    content: "/";
+}
