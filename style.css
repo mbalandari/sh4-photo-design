@@ -84,6 +84,14 @@ header nav a.active {
     position: relative;
 }
 
+.photo img {
+    transition: filter 0.3s;
+}
+
+.photo:hover img {
+    filter: grayscale(100%);
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -93,6 +101,7 @@ header nav a.active {
     background-color: rgba(0, 0, 0, 0.7);
     opacity: 0;
     transition: opacity 0.3s;
+    z-index: 7;
 }
 
 .photo:hover .overlay {
