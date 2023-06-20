@@ -142,6 +142,20 @@ footer .contact a {
     display: inline-block;
 }
 
+.list {
+    max-width: 67.5rem;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+.list a {
+    font-size: 2rem;
+}
+
 .list a img {
     opacity: 0;
     position: fixed;
@@ -149,8 +163,18 @@ footer .contact a {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 31.25rem;
+    pointer-events: none;
+    transition: opacity 0.5s;
 }
 
 .list a::after {
     content: "/";
+}
+
+.list a:last-child::after {
+    content: "";
+}
+
+.list a:hover img {
+    opacity: 1;
 }
