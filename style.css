@@ -45,11 +45,17 @@ header h1 {
 
 header nav a {
     margin-left: 0.6rem;
+    transition: border 0.3s ease-in;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    padding-bottom: 3px;
 }
 
-.active {
-    border-bottom: 2px solid #fff;
-    padding-bottom: 3px;
+header nav a:hover {
+    border-color: #555;
+}
+
+header nav a.active {
+    border-color: #fff;
 }
 
 .photos {
